@@ -1,4 +1,5 @@
 # DALI_Dashboard
+https://yashkukadia.github.io/DALI_Dashboard/
 
 This is a dashboard that is a "Meet the Team" page for members of DALI Lab at Dartmouth College. It gets this information from an API and displays it accordingly.
 
