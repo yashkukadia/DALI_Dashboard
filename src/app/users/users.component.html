@@ -1,0 +1,15 @@
+<h1 id="heading">Meet the Team!</h1>
+<ul>
+  <li *ngFor="let user of users$">
+    <img src="http://mappy.dali.dartmouth.edu/{{user.iconUrl}}" height="220" width="220" > 
+   
+    <a href="https:{{ user.url }}">{{ user.name }}</a>
+
+    <p>"{{ user.message }}"</p>
+    <p>Available during {{user.terms_on}}</p>
+    <p *ngIf="(user.project.length > 0) && (user.project[0]!='')"> My projects: {{user.project}}</p>
+    
+        
+       
+  </li>
+  </ul>
